@@ -111,7 +111,7 @@ PAGINA: GALERIA
 #galeria {
 	margin: 0;
 	padding: 2;
-	list-style: none;
+	list-style: center;
 }
 
 #galeria li {
@@ -124,9 +124,9 @@ PAGINA: GALERIA
 
 #galeria li a p {
 	margin: 0;
-	padding: 3%;
-	font-size: 0.75em;
-	color: #f8bbd0;
+	padding: 4%;
+	font-size: 0.90em;
+	color:  #9c27b0;
 	
 	}
 
@@ -146,13 +146,7 @@ PAGINA NUESTROS PRODUCTOS DE (ABOUT)
 	border-radius: 100%;
 }
 
-{
-	float: center;
-	width: 70%;
-	margin: 2.5%;
-	background-color: #b2ff59;
-	color: #fce4ec;
-}
+
 
 /*******************
 PAGINA DE CONTACTOS (CONTACT)
