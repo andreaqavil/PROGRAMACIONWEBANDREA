@@ -1,0 +1,55 @@
+@media screen and (min-width: 480px)
+{
+	body {
+		background: navy;
+	}
+	
+}
+
+@media screen and (min-width: 660px)
+{
+	body {
+		background: darkgreen;
+	}
+	
+}
+
+@media screen and (min-width: 80px)
+{
+#primary  { width: 50%;
+float: left; 
+}
+
+
+#secundary  { width: 40%;
+float: right;  
+}
+
+#galeria li {width: 28.3333% }
+
+
+#galeria li:nth-child(3n+1) {
+	clear: left;
+
+}
+
+/*******************
+ESTILOS DE LA PAGINA
+*******************/
+.profile-photo {
+	float: left;
+	margin: 0.5% 120px 0;
+}
+
+
+#logo{
+	float: left;
+	margin-left: 5%;
+	text-align: left;
+	width: 70%;
+}
+
+h1 {font-size: 1.5em}
+h2{font-size: 0.825em
+margin-bottom:20px;
+}

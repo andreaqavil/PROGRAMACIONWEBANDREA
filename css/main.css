@@ -1,0 +1,227 @@
+/*******************
+GENERAL
+*******************/
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #f8bbd0;
+}
+
+#wrapper {
+	max-width: 900px;
+	margin: 0 auto;	
+	padding: 0 5%;
+}
+
+img {
+	max-width: 100%;
+}
+
+h3 {
+	margin: 0 0 1em 0;
+}
+
+
+/*******************
+HEADING
+*******************/
+
+header{
+	float: left;
+	margin: 0 0 40px 0;
+	padding: 30px 0 0 0;
+	width: 100%;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Droid Sans', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.6em;
+}
+
+h2 {
+	font-size: 0.75 em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+
+/*******************
+NAVIGATION
+*******************/
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+
+
+/*******************
+FOOTER
+*******************/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both; 
+	padding-top: 50px;
+	color: #ad1457;
+}
+
+.social-icon {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
+
+
+
+/*******************
+PAGINA: GALERIA
+*******************/
+
+#galeria {
+	margin: 0;
+	padding: 2;
+	list-style: none;
+}
+
+#galeria li {
+	float: center;
+	width: 70%;
+	margin: 2.5%;
+	background-color: #b2ff59;
+	color: #fce4ec;
+}
+
+#galeria li a p {
+	margin: 0;
+	padding: 3%;
+	font-size: 0.75em;
+	color: #f8bbd0;
+	
+	}
+
+
+
+
+
+/*******************
+PAGINA NUESTROS PRODUCTOS DE (ABOUT)
+*******************/
+
+.profile-photo {
+
+	display: block;
+	max-width: 450px;
+	margin: 0 auto 50px;
+	border-radius: 100%;
+}
+
+{
+	float: center;
+	width: 70%;
+	margin: 2.5%;
+	background-color: #b2ff59;
+	color: #fce4ec;
+}
+
+/*******************
+PAGINA DE CONTACTOS (CONTACT)
+*******************/
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contact-info li.phone a{
+	background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a{
+	background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a{
+	background-image: url('../img/twitter.png');
+}
+
+
+
+/*******************
+COLORS
+*******************/
+
+body {
+	background-color: #fff;
+	color: #fce4ec;
+}
+
+
+/*green header*/
+header {
+	background: #e91e63;
+	border-color: #69f0ae;
+}
+
+nav{
+	background: #f8bbd0;
+}
+
+/* Logo text*/
+h1, h2 {
+	color:  #e91e63;
+}
+
+
+
+/* nav link */
+nav a, nav a:visited {
+	color:  #e91e63;
+}
+
+
+nav a.selected {
+	color:  #e91e63;
+}
+
