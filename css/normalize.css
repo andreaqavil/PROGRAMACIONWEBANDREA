@@ -66,7 +66,7 @@ audio:not([controls]) {
  */
 
 html {
-    font-size: 100%; /* 1 */
+    font-size: 130%; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
     -ms-text-size-adjust: 100%; /* 2 */
 }
@@ -134,8 +134,8 @@ h2 {
 }
 
 h3 {
-    font-size: 1.17em;
-    margin: 1em 0;
+    font-size: 1.00em;
+    margin: 6em 0;
 }
 
 h4 {
@@ -208,7 +208,7 @@ mark {
 
 p,
 pre {
-    margin: 1em 0;
+    margin: 11em 1;
 }
 
 /**

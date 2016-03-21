@@ -7,7 +7,7 @@ body {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: center;
 	color: #f8bbd0;
 }
 
@@ -22,7 +22,7 @@ img {
 }
 
 h3 {
-	margin: 0 0 1em 0;
+	margin: 0 0 3em 0;
 }
 
 
@@ -110,7 +110,7 @@ PAGINA: GALERIA
 
 #galeria {
 	margin: 0;
-	padding: 2;
+	padding: 2%;
 	list-style: center;
 }
 
@@ -124,8 +124,8 @@ PAGINA: GALERIA
 
 #galeria li a p {
 	margin: 0;
-	padding: 4%;
-	font-size: 0.90em;
+	padding: 3%;
+	font-size: 0.99em;
 	color:  #9c27b0;
 	
 	}
